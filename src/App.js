@@ -1,25 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Button from './Button';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 id='heading'>Why Use React?</h1>
+      <img id='whyreact' src="https://www.techmagic.co/blog/content/images/2022/03/React.js-1-1.png"  alt='10 Key Reasons Why we should Use React for Web Development' />
+      <hr></hr>
+      <br></br>
+      <Button/>
     </div>
   );
 }
-
 export default App;

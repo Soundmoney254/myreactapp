@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+#root {
+margin: 20%;
+text-align: center;
+display: flex;
+}
+
+#heading {
+justify-content: center;
+}
+#button{
+  margin: auto;
+  padding: 10px 10px;
+  background-color: rgb(237, 10, 59);
+  color: white;
+  font-size: x-large;
+  border: solid black 1px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
